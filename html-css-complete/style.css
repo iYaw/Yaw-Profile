@@ -1,0 +1,181 @@
+body {
+	/* Much thanks to https://www.gradient-animator.com/ */
+	background:purple;
+	background: linear-gradient(276deg, #bd2d98, #5d2dbd, #53d7af, #b953d7);
+	background-size: 200% 200%;
+
+	-webkit-animation: AnimationName 11s ease infinite;
+	-moz-animation: AnimationName 11s ease infinite;
+	animation: AnimationName 11s ease infinite;
+  padding: 60px;
+
+}
+
+
+body {
+	font-size:30px;
+	line-height: 1.4em;
+	color: white;
+}
+
+h1 {
+	font-size:120px;
+	line-height: 1.1em;
+}
+
+h2 {
+	font-size:60px;
+	line-height: 1.1em;
+	margin:1em 0 .5em;
+	clear: both;
+}
+
+a {
+	color: white;
+}
+
+ul, ol {
+	padding-left:1em;
+}
+
+ul, ol, p {
+	margin-bottom:.5em;
+}
+
+td,th {
+	padding:.5em;
+	text-align: left;
+}
+
+.main {
+	max-width:1000px;
+	margin:100px auto 0;
+}
+
+.main-pic {
+	float: right;
+}
+
+.place {
+	width:45%;
+	padding:0 2.5% 0 0;
+	float: left;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+/* ****** slide ****** */
+
+
+#container{
+  width: 50%;
+  margin:auto;
+  
+  height: auto;
+  overflow: hidden;
+  padding-top: 60px;
+  
+}
+
+#slider{
+  width:300%;
+  height: 150px;
+  left:0%;
+  position: relative;
+  transition: left 500ms ease-in;
+  padding-top:25%;
+}
+
+.slide{
+  position: absolute;
+  top: 0;
+  width:33.33%;
+    height: 100%;
+   
+}
+
+#slide1{
+  background-color: red;
+  left:0%;
+  background-image:url(https://cdn.getyourguide.com/niwziy2l9cvz/58ReSCAIQEumkiWMUq4kMo/4e8c2e4efac4ea019d8d5ccd73ec2f74/Helsinki-1112x630_4_.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+#slide2{
+  background-color: green;
+  left:33.33%;
+  background-image:url(https://www.urlaubsguru.de/wp-content/uploads/2015/12/urlaubsguru.de_prag-impressionen2.jpg);
+  background-position: 50%;
+  background-size: cover;
+
+}
+
+#slide3{
+  background: blue;
+  left:66.66%;
+  background-image:url(http://travelfree.info/wp-content/uploads/2015/12/urning_torso_malmo0.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+#slide4{
+  background: grey;
+  left:99.99%;
+  background-image:url(https://travel.jumia.com/blog/ng/wp-content/uploads/2016/04/abuja-skyline-07-1-660x400.jpg);
+  background-position: 50%;
+  background-size: cover;
+
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+#table{
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
